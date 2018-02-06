@@ -1,14 +1,14 @@
-#Git 常用操作和指令
+# Git 常用操作和指令
 
 
-##配置git     
+## 配置git     
 
     git config --global user.name 'Your Name'  //  配置名字    
     git config --global user.email 'example@example.com'  //  配置邮箱   
    
 ---   
     
-##创建版本库     
+## 创建版本库     
 
     mkdir xxx       //  新建文件/文件夹   
     cd xxx       //  进入xxx文件夹下边   
@@ -20,7 +20,7 @@
    
 ---   
    
-##仓库状态管理    
+## 仓库状态管理    
 
     git status  //  查看当前仓库状态   
     git diff readme.md  //  查看readme.md修改的内容   
@@ -51,7 +51,7 @@
         
 ---     
 
-##远程仓库      
+## 远程仓库      
     
     git remote add origin  https://github.com/TriteLove/learngit.git     //第一次关联本地仓库和服务器仓库      
     git push -u origin master        //第一次提交仓库代码        
