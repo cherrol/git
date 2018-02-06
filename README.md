@@ -63,8 +63,10 @@
     
     git clone git@github.com:TriteLove/gitmycode.git       
     git clone https://github.com/TriteLove/learngit.git   //从仓库克隆代码    
-        
-## 创建合并分支    
+                
+---     
+
+## 创建合并分支    
     
     查看分支：git branch     
     创建分支：git branch <name>      
