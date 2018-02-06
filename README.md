@@ -48,8 +48,10 @@
     rm demo/add.txt      //删除add.txt    
     git rm demo/add.txt      //删除仓库里的add.txt    
     git commit -m 'remove add.txt'   //提交删除     
-
-##远程仓库      
+    
+    --- 
+    
+##远程仓库      
     
     git remote add origin  https://github.com/TriteLove/learngit.git     //第一次关联本地仓库和服务器仓库      
     git push -u origin master        //第一次提交仓库代码        
