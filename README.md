@@ -2,8 +2,8 @@
 
 ##配置git    
 
-```git config --global user.name 'Your Name'  //  配置名字```   
-```git config --global user.email 'example@example.com'  //  配置邮箱```   
+    git config --global user.name 'Your Name'  //  配置名字   
+    git config --global user.email 'example@example.com'  //  配置邮箱   
 
 ---
 ##创建版本库   
