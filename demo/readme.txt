@@ -1,8 +1,4 @@
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 
-<<<<<<< HEAD
-git test
-=======
-git master
->>>>>>> commit master
+git dev
