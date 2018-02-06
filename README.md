@@ -14,9 +14,11 @@
 ```git init    //  把当前目录变为Git版本管理仓库```   
 ```git add readme.md       //  把readme.md放到暂存区```   
 ```git commit -m 'add readme.md'   //  把暂存区的文件提交到仓库```   
-第一次修改 -> git add -> 第二次修改 -> git add -> git commit
----
-##仓库状态管理   
+第一次修改 -> git add -> 第二次修改 -> git add -> git commit   
+
+---   
+
+##仓库状态管理      
 
 ```git status  //  查看当前仓库状态```   
 ```git diff readme.md  //  查看readme.md修改的内容```   
@@ -46,7 +48,12 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 
 ```git remote add origin  https://github.com/TriteLove/learngit.git     //第一次关联本地仓库和服务器仓库```   
 ```git push -u origin master        //第一次提交仓库代码```   
-```git push origin master       //提交本地仓库代码```   
-要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git   
+```git push origin master       //提交本地仓库代码```
+ 
+ ---
+ 
+##远程仓库    
+
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git   
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容   
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改   
