@@ -2,11 +2,13 @@
 
 
 ##配置git
+
 ```git config --global user.name 'Your Name'  //  配置名字```
 ```git config --global user.email 'example@example.com'  //  配置邮箱```
 
 ---
 ##创建版本库
+
 ```mkdir xxx       //  新建文件/文件夹```
 ```cd xxx       //  进入xxx文件夹下边```
 ```pwd     //  显示当前项目路径```
@@ -16,6 +18,7 @@
 第一次修改 -> git add -> 第二次修改 -> git add -> git commit
 ---
 ##仓库状态管理
+
 ```git status  //  查看当前仓库状态```
 ```git diff readme.md  //  查看readme.md修改的内容```
 要随时掌握工作区的状态，使用git status命令。
